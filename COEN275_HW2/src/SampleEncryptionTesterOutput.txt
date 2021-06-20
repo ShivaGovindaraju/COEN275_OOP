@@ -1,0 +1,239 @@
+----- Assignment 1 Questions 1 and 2 Tester -----
+
+[EncryptionTester] --- Testing TestSet1 ---
+Error [Encryptor]: the Offset cannot be < 01. Offset is being set to 1.
+
+[EncryptionTester] Testing String: abcdefghijklmnopqrstuvwxyz  Offset: 1
+Encrypted Text: BCDEFGHIJKLMNOPQRSTUVWXYZA
+Decrypted Test: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+[EncryptionTester] Testing String: abcdefghijklmnopqrstuvwxyz  Offset: 3
+Encrypted Text: DEFGHIJKLMNOPQRSTUVWXYZABC
+Decrypted Test: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+[EncryptionTester] Testing String: abcdefghijklmnopqrstuvwxyz  Offset: 11
+Encrypted Text: LMNOPQRSTUVWXYZABCDEFGHIJK
+Decrypted Test: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+[EncryptionTester] Testing String: abcdefghijklmnopqrstuvwxyz  Offset: 25
+Encrypted Text: ZABCDEFGHIJKLMNOPQRSTUVWXY
+Decrypted Test: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Error [Encryptor]: the Offset cannot be > 25. Offset is being set to 25.
+
+[EncryptionTester] Testing String: abcdefghijklmnopqrstuvwxyz  Offset: 25
+Encrypted Text: ZABCDEFGHIJKLMNOPQRSTUVWXY
+Decrypted Test: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+Error [Encryptor]: the Offset cannot be < 01. Offset is being set to 1.
+
+[EncryptionTester] Testing String: Shiva K. Govindaraju  Offset: 1
+Encrypted Text: TIJWB L. HPWJOEBSBKV
+Decrypted Test: SHIVA K. GOVINDARAJU
+
+[EncryptionTester] Testing String: Shiva K. Govindaraju  Offset: 3
+Encrypted Text: VKLYD N. JRYLQGDUDMX
+Decrypted Test: SHIVA K. GOVINDARAJU
+
+[EncryptionTester] Testing String: Shiva K. Govindaraju  Offset: 11
+Encrypted Text: DSTGL V. RZGTYOLCLUF
+Decrypted Test: SHIVA K. GOVINDARAJU
+
+[EncryptionTester] Testing String: Shiva K. Govindaraju  Offset: 25
+Encrypted Text: RGHUZ J. FNUHMCZQZIT
+Decrypted Test: SHIVA K. GOVINDARAJU
+Error [Encryptor]: the Offset cannot be > 25. Offset is being set to 25.
+
+[EncryptionTester] Testing String: Shiva K. Govindaraju  Offset: 25
+Encrypted Text: RGHUZ J. FNUHMCZQZIT
+Decrypted Test: SHIVA K. GOVINDARAJU
+Error [Encryptor]: the Offset cannot be < 01. Offset is being set to 1.
+
+[EncryptionTester] Testing String: Xray defraction  Offset: 1
+Encrypted Text: YSBZ EFGSBDUJPO
+Decrypted Test: XRAY DEFRACTION
+
+[EncryptionTester] Testing String: Xray defraction  Offset: 3
+Encrypted Text: AUDB GHIUDFWLRQ
+Decrypted Test: XRAY DEFRACTION
+
+[EncryptionTester] Testing String: Xray defraction  Offset: 11
+Encrypted Text: ICLJ OPQCLNETZY
+Decrypted Test: XRAY DEFRACTION
+
+[EncryptionTester] Testing String: Xray defraction  Offset: 25
+Encrypted Text: WQZX CDEQZBSHNM
+Decrypted Test: XRAY DEFRACTION
+Error [Encryptor]: the Offset cannot be > 25. Offset is being set to 25.
+
+[EncryptionTester] Testing String: Xray defraction  Offset: 25
+Encrypted Text: WQZX CDEQZBSHNM
+Decrypted Test: XRAY DEFRACTION
+Error [Encryptor]: the Offset cannot be < 01. Offset is being set to 1.
+
+[EncryptionTester] Testing String: Zebra-tailed lizard  Offset: 1
+Encrypted Text: AFCSB-UBJMFE MJABSE
+Decrypted Test: ZEBRA-TAILED LIZARD
+
+[EncryptionTester] Testing String: Zebra-tailed lizard  Offset: 3
+Encrypted Text: CHEUD-WDLOHG OLCDUG
+Decrypted Test: ZEBRA-TAILED LIZARD
+
+[EncryptionTester] Testing String: Zebra-tailed lizard  Offset: 11
+Encrypted Text: KPMCL-ELTWPO WTKLCO
+Decrypted Test: ZEBRA-TAILED LIZARD
+
+[EncryptionTester] Testing String: Zebra-tailed lizard  Offset: 25
+Encrypted Text: YDAQZ-SZHKDC KHYZQC
+Decrypted Test: ZEBRA-TAILED LIZARD
+Error [Encryptor]: the Offset cannot be > 25. Offset is being set to 25.
+
+[EncryptionTester] Testing String: Zebra-tailed lizard  Offset: 25
+Encrypted Text: YDAQZ-SZHKDC KHYZQC
+Decrypted Test: ZEBRA-TAILED LIZARD
+Error [Encryptor]: the Offset cannot be < 01. Offset is being set to 1.
+
+[EncryptionTester] Testing String: Walkie-talkie  Offset: 1
+Encrypted Text: XBMLJF-UBMLJF
+Decrypted Test: WALKIE-TALKIE
+
+[EncryptionTester] Testing String: Walkie-talkie  Offset: 3
+Encrypted Text: ZDONLH-WDONLH
+Decrypted Test: WALKIE-TALKIE
+
+[EncryptionTester] Testing String: Walkie-talkie  Offset: 11
+Encrypted Text: HLWVTP-ELWVTP
+Decrypted Test: WALKIE-TALKIE
+
+[EncryptionTester] Testing String: Walkie-talkie  Offset: 25
+Encrypted Text: VZKJHD-SZKJHD
+Decrypted Test: WALKIE-TALKIE
+Error [Encryptor]: the Offset cannot be > 25. Offset is being set to 25.
+
+[EncryptionTester] Testing String: Walkie-talkie  Offset: 25
+Encrypted Text: VZKJHD-SZKJHD
+Decrypted Test: WALKIE-TALKIE
+Error [Encryptor]: the Offset cannot be < 01. Offset is being set to 1.
+
+[EncryptionTester] Testing String: COEN 275 OO Analysis, Design and Programming  Offset: 1
+Encrypted Text: DPFO 275 PP BOBMZTJT, EFTJHO BOE QSPHSBNNJOH
+Decrypted Test: COEN 275 OO ANALYSIS, DESIGN AND PROGRAMMING
+
+[EncryptionTester] Testing String: COEN 275 OO Analysis, Design and Programming  Offset: 3
+Encrypted Text: FRHQ 275 RR DQDOBVLV, GHVLJQ DQG SURJUDPPLQJ
+Decrypted Test: COEN 275 OO ANALYSIS, DESIGN AND PROGRAMMING
+
+[EncryptionTester] Testing String: COEN 275 OO Analysis, Design and Programming  Offset: 11
+Encrypted Text: NZPY 275 ZZ LYLWJDTD, OPDTRY LYO ACZRCLXXTYR
+Decrypted Test: COEN 275 OO ANALYSIS, DESIGN AND PROGRAMMING
+
+[EncryptionTester] Testing String: COEN 275 OO Analysis, Design and Programming  Offset: 25
+Encrypted Text: BNDM 275 NN ZMZKXRHR, CDRHFM ZMC OQNFQZLLHMF
+Decrypted Test: COEN 275 OO ANALYSIS, DESIGN AND PROGRAMMING
+Error [Encryptor]: the Offset cannot be > 25. Offset is being set to 25.
+
+[EncryptionTester] Testing String: COEN 275 OO Analysis, Design and Programming  Offset: 25
+Encrypted Text: BNDM 275 NN ZMZKXRHR, CDRHFM ZMC OQNFQZLLHMF
+Decrypted Test: COEN 275 OO ANALYSIS, DESIGN AND PROGRAMMING
+
+[EncryptionTester] --- TestSet1 Complete ---
+
+[EncryptionTester] --- Testing TestSet2 ---
+
+[EncryptionTester] Testing String: abcdefghijklmnopqrstuvwxyz  Offset: 3
+Encrypted Text: DEFGHIJKLMNOPQRSTUVWXYZABC
+Decrypted Test: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+[EncryptionTester] Testing String: abcdefghijklmnopqrstuvwxyz  Offset: 21
+Encrypted Text: VWXYZABCDEFGHIJKLMNOPQRSTU
+Decrypted Test: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+[EncryptionTester] Testing String: abcdefghijklmnopqrstuvwxyz  Offset: 22
+Encrypted Text: WXYZABCDEFGHIJKLMNOPQRSTUV
+Decrypted Test: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+[EncryptionTester] Testing String: abcdefghijklmnopqrstuvwxyz  Offset: 7
+Encrypted Text: HIJKLMNOPQRSTUVWXYZABCDEFG
+Decrypted Test: ABCDEFGHIJKLMNOPQRSTUVWXYZ
+
+[EncryptionTester] Testing String: Shiva K. Govindaraju  Offset: 6
+Encrypted Text: YNOBG Q. MUBOTJGXGPA
+Decrypted Test: SHIVA K. GOVINDARAJU
+
+[EncryptionTester] Testing String: Shiva K. Govindaraju  Offset: 12
+Encrypted Text: ETUHM W. SAHUZPMDMVG
+Decrypted Test: SHIVA K. GOVINDARAJU
+
+[EncryptionTester] Testing String: Shiva K. Govindaraju  Offset: 2
+Encrypted Text: UJKXC M. IQXKPFCTCLW
+Decrypted Test: SHIVA K. GOVINDARAJU
+
+[EncryptionTester] Testing String: Shiva K. Govindaraju  Offset: 18
+Encrypted Text: KZANS C. YGNAFVSJSBM
+Decrypted Test: SHIVA K. GOVINDARAJU
+
+[EncryptionTester] Testing String: Xray defraction  Offset: 8
+Encrypted Text: FZIG LMNZIKBQWV
+Decrypted Test: XRAY DEFRACTION
+
+[EncryptionTester] Testing String: Xray defraction  Offset: 8
+Encrypted Text: FZIG LMNZIKBQWV
+Decrypted Test: XRAY DEFRACTION
+
+[EncryptionTester] Testing String: Xray defraction  Offset: 20
+Encrypted Text: RLUS XYZLUWNCIH
+Decrypted Test: XRAY DEFRACTION
+
+[EncryptionTester] Testing String: Xray defraction  Offset: 22
+Encrypted Text: TNWU ZABNWYPEKJ
+Decrypted Test: XRAY DEFRACTION
+
+[EncryptionTester] Testing String: Zebra-tailed lizard  Offset: 16
+Encrypted Text: PURHQ-JQYBUT BYPQHT
+Decrypted Test: ZEBRA-TAILED LIZARD
+
+[EncryptionTester] Testing String: Zebra-tailed lizard  Offset: 20
+Encrypted Text: TYVLU-NUCFYX FCTULX
+Decrypted Test: ZEBRA-TAILED LIZARD
+
+[EncryptionTester] Testing String: Zebra-tailed lizard  Offset: 13
+Encrypted Text: MROEN-GNVYRQ YVMNEQ
+Decrypted Test: ZEBRA-TAILED LIZARD
+
+[EncryptionTester] Testing String: Zebra-tailed lizard  Offset: 21
+Encrypted Text: UZWMV-OVDGZY GDUVMY
+Decrypted Test: ZEBRA-TAILED LIZARD
+
+[EncryptionTester] Testing String: Walkie-talkie  Offset: 23
+Encrypted Text: TXIHFB-QXIHFB
+Decrypted Test: WALKIE-TALKIE
+
+[EncryptionTester] Testing String: Walkie-talkie  Offset: 13
+Encrypted Text: JNYXVR-GNYXVR
+Decrypted Test: WALKIE-TALKIE
+
+[EncryptionTester] Testing String: Walkie-talkie  Offset: 24
+Encrypted Text: UYJIGC-RYJIGC
+Decrypted Test: WALKIE-TALKIE
+
+[EncryptionTester] Testing String: Walkie-talkie  Offset: 7
+Encrypted Text: DHSRPL-AHSRPL
+Decrypted Test: WALKIE-TALKIE
+
+[EncryptionTester] Testing String: COEN 275 OO Analysis, Design and Programming  Offset: 22
+Encrypted Text: YKAJ 275 KK WJWHUOEO, ZAOECJ WJZ LNKCNWIIEJC
+Decrypted Test: COEN 275 OO ANALYSIS, DESIGN AND PROGRAMMING
+
+[EncryptionTester] Testing String: COEN 275 OO Analysis, Design and Programming  Offset: 20
+Encrypted Text: WIYH 275 II UHUFSMCM, XYMCAH UHX JLIALUGGCHA
+Decrypted Test: COEN 275 OO ANALYSIS, DESIGN AND PROGRAMMING
+
+[EncryptionTester] Testing String: COEN 275 OO Analysis, Design and Programming  Offset: 7
+Encrypted Text: JVLU 275 VV HUHSFZPZ, KLZPNU HUK WYVNYHTTPUN
+Decrypted Test: COEN 275 OO ANALYSIS, DESIGN AND PROGRAMMING
+
+[EncryptionTester] Testing String: COEN 275 OO Analysis, Design and Programming  Offset: 6
+Encrypted Text: IUKT 275 UU GTGREYOY, JKYOMT GTJ VXUMXGSSOTM
+Decrypted Test: COEN 275 OO ANALYSIS, DESIGN AND PROGRAMMING
+
+[EncryptionTester] --- TestSet2 Complete ---
+
+---- Assign1 Questions 1 & 2 Tester Complete -----

@@ -1,0 +1,27 @@
+----- Assignment 1 Questions 3 and 4 Tester -----
+
+--- Required Testing Steps ---
+
+[ATM] Creating new Account.
+[BankAccount] Account Info: Account ID: A123, Name: M.Jones, Balance: $2000.0
+
+[ATM] Creating new Account.
+[BankAccount] Account Info: Account ID: B654, Name: B.Smith, Balance: $100.0
+
+[ATM] Getting $1000.0 from Account A123.
+
+[ATM] Error: Incorrect Password for Account B654.
+[ATM] Getting $0.0 from Account B654.
+
+[ATM] Getting $50.0 from Account B654.
+
+[ATM] Getting $50.0 from Account B654.
+
+[BankAccount] Error: Attempted to draw $50.0 amount from BankAccount with only $0.0 balance.
+[ATM] Getting $0.0 from Account B654.
+
+[ATM] Creating new Account.
+[ATM] Error: Account A123 already exists within the ATM.
+
+--- Required Testing Complete ---
+
